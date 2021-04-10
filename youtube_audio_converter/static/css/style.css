@@ -1,7 +1,7 @@
 
 body{
     margin: 0;
-    background-image: url(body.jpg);
+    background-image: url(/static/img/body.jpg);
 }
 
 header{

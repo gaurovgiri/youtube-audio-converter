@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Youtube into audio converter</title>
+    {% load static %}
+    <link rel="stylesheet" type = "text/css" href = "{% static 'css/style.css' %}">
+</head>
+
+<body>
+    <header>Youtube into audio converter</header>
+    <nav>
+        <a href="about">about</a>
+        <a href="contacts">contacts</a>
+        <a href="home">home</a>
+    </nav>
+    {% load static %}
+    <img class="brightness" src="{% static 'img/logo.png' %}" class="center">
+    <section>
+        Convert any youtube videos into audio file!!!
+    </section>
+    <form> 
+        <input type = "url", placeholder="Paste URL of the video here.....">
+        <input type = "submit", value="CONVERT">
+    </form>
+</body>
+</html>

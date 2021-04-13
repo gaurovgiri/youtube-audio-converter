@@ -49,3 +49,29 @@ img {
 }
 
 .brightness {filter: brightness(250%);}
+
+section{
+    font-family: 'Segoe UI';
+    font-size: x-large;
+    text-align: center;
+    color: rgb(226, 207, 37);
+    margin: 2% 35% 3% 40%;
+    font-weight: bold;
+}
+
+input[type=url] {
+    width: 35%;
+    padding: 15px 10px;
+    margin: 3% 25% 1% 35%;
+    box-sizing: border-box;
+    border: rgb(65, 37, 37) block;
+}
+
+input[type=submit] {
+    width: 35%;
+    padding: 5px;
+    margin: 0% 5% 1% 35%;
+    box-sizing: border-box;
+    border: rgb(65, 37, 37) block;
+}
+

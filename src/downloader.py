@@ -1,4 +1,3 @@
-from turtle import dot
 import youtube_dl
 from deta import Deta
 from dotenv import dotenv_values 
